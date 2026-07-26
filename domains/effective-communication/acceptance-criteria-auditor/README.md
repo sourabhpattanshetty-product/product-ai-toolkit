@@ -10,7 +10,7 @@ This skill audits pasted-in criteria line by line, flags every vague qualifier o
 
 ## Skill, not agent - deliberately
 
-This reviews whatever you paste in. It does not reach into Jira or a ticketing system to pull criteria itself - that would require tool access and turns this into a different kind of build (see any `AGENT.md` under [`domains/`](../..) for that pattern, e.g. [`opportunity-assessment-agent`](../../03-problem-discovery-market-and-user-research/opportunity-assessment-agent)). Kept as a skill so it stays fast and has no integration to maintain.
+This reviews whatever you paste in. It does not reach into Jira or a ticketing system to pull criteria itself - that would require tool access and turns this into a different kind of build (see any `AGENT.md` under [`domains/`](../..) for that pattern, e.g. [`opportunity-assessment-agent`](../../problem-discovery-market-and-user-research/opportunity-assessment-agent)). Kept as a skill so it stays fast and has no integration to maintain.
 
 ## Try it
 

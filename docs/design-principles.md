@@ -23,7 +23,7 @@ New skills added to this toolkit should hold to the same principles even where t
 
 ## Why domain-based folders
 
-Skills and agents live under `domains/<NN-domain-name>/`, matching a standard PM curriculum, rather than in flat `skills/` and `agents/` buckets. This keeps a new build anchored to the actual PM skill it's meant to support rather than filed by implementation detail (skill vs. agent) alone.
+Skills and agents live under `domains/<domain-name>/`, matching a standard PM curriculum, rather than in flat `skills/` and `agents/` buckets. This keeps a new build anchored to the actual PM skill it's meant to support rather than filed by implementation detail (skill vs. agent) alone.
 
 ## No placeholder folders
 

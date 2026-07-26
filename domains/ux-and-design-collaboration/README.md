@@ -1,4 +1,4 @@
-# 05 · UX and Design Collaboration
+# UX and Design Collaboration
 
 **Course window:** 30 May - 05 Jun
 

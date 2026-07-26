@@ -39,4 +39,4 @@ No write access to any system is required - this agent only reads and synthesize
 
 ## Design notes
 
-This repo ships the agent's role, tool contract, and workflow as a spec - wiring it to a specific org's Zendesk/Salesforce instance requires that org's credentials and is intentionally left out of a portfolio repo. `release-notes-agent` (under [`08-product-launch-growth-and-monetization`](../../08-product-launch-growth-and-monetization/release-notes-agent)) includes a runnable reference implementation using only local, credential-free data (git history) to demonstrate the pattern end to end.
+This repo ships the agent's role, tool contract, and workflow as a spec - wiring it to a specific org's Zendesk/Salesforce instance requires that org's credentials and is intentionally left out of a portfolio repo. `release-notes-agent` (under [`product-launch-growth-and-monetization`](../../product-launch-growth-and-monetization/release-notes-agent)) includes a runnable reference implementation using only local, credential-free data (git history) to demonstrate the pattern end to end.

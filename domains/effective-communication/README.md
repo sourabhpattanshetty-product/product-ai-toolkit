@@ -1,4 +1,4 @@
-# 06 · Effective Communication as a PM
+# Effective Communication as a PM
 
 **Course window:** 06 Jun - 12 Jun
 

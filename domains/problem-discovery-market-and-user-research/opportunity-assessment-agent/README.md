@@ -14,4 +14,4 @@ It needs to read from systems outside the conversation (ticketing, CRM) rather t
 
 ## Status
 
-Spec only in this repo - see the note in `AGENT.md` on why live credentials aren't wired up here, and see [`release-notes-agent`](../../08-product-launch-growth-and-monetization/release-notes-agent) for a fully runnable example of the same agent pattern.
+Spec only in this repo - see the note in `AGENT.md` on why live credentials aren't wired up here, and see [`release-notes-agent`](../../product-launch-growth-and-monetization/release-notes-agent) for a fully runnable example of the same agent pattern.

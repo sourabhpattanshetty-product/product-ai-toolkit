@@ -1,4 +1,4 @@
-# 04 · Problem Framing and Prioritization
+# Problem Framing and Prioritization
 
 **Course window:** 23 May - 29 May
 

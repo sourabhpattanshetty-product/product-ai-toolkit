@@ -1,4 +1,4 @@
-# 03 · Problem Discovery, Market and User Research
+# Problem Discovery, Market and User Research
 
 **Course window:** 16 May - 22 May
 

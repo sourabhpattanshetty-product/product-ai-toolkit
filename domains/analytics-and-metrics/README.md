@@ -1,4 +1,4 @@
-# 07 · Analytics and Metrics
+# Analytics and Metrics
 
 **Course window:** 20 Jun - 26 Jun
 

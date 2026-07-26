@@ -1,4 +1,4 @@
-# 08 · Product Launch, Growth and Monetization
+# Product Launch, Growth and Monetization
 
 **Course window:** 27 Jun - 03 Jul
 

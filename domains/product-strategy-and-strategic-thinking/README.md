@@ -1,4 +1,4 @@
-# 02 · Product Strategy and Strategic Thinking
+# Product Strategy and Strategic Thinking
 
 **Course window:** 02 May - 08 May
 
