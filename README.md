@@ -6,21 +6,18 @@ Everything here is designed to work as a **collaborative co-pilot**, not a docum
 
 ## Organized by domain
 
-The repo is organized around a standard PM curriculum (Fundamentals → Strategy → Discovery → Problem Framing → UX → Communication → Analytics → Launch/Growth → Tech 101), so each build sits next to the skill area it supports rather than in a flat, undifferentiated list.
+The repo is organized around a standard PM curriculum, so each build sits next to the skill area it supports rather than in a flat, undifferentiated list. Only domains with a concrete skill or agent get a folder here — this maps to a subset of the full course sequence, not every module in it.
 
 | # | Domain | Course window | Contents |
 |---|---|---|---|
-| 01 | [Fundamentals of Product Management](domains/01-fundamentals-of-product-management) | 25 Apr - 01 May | — |
 | 02 | [Product Strategy and Strategic Thinking](domains/02-product-strategy-and-strategic-thinking) | 02 May - 08 May | `roadmap-narrative` (skill) |
 | 03 | [Problem Discovery, Market and User Research](domains/03-problem-discovery-market-and-user-research) | 16 May - 22 May | `opportunity-assessment-agent`, `competitive-teardown-agent` (agents) |
 | 04 | [Problem Framing and Prioritization](domains/04-problem-framing-and-prioritization) | 23 May - 29 May | `user-story-splitter`, `rice-scoring-copilot` (skills) |
-| 05 | [UX and Design Collaboration](domains/05-ux-and-design-collaboration) | 30 May - 05 Jun | — |
 | 06 | [Effective Communication as a PM](domains/06-effective-communication) | 06 Jun - 12 Jun | `prd-copilot`, `acceptance-criteria-auditor` (skills) |
 | 07 | [Analytics and Metrics](domains/07-analytics-and-metrics) | 20 Jun - 26 Jun | `post-launch-retro-agent` (agent) |
 | 08 | [Product Launch, Growth and Monetization](domains/08-product-launch-growth-and-monetization) | 27 Jun - 03 Jul | `release-notes-agent` (agent, **runnable**) |
-| 09 | [Tech 101 and System Design](domains/09-tech-101-and-system-design) | 04 Jul - 10 Jul | — |
 
-Domains marked "—" don't have a build yet — see each domain's `README.md` for a note on why, and what a plausible first build would look like.
+Numbering follows the course sequence (hence the gaps) so each domain still maps back to its module. Fundamentals, UX and Design Collaboration, and Tech 101 don't have a folder — there's no concrete skill or agent for them yet, and this repo doesn't carry placeholder folders for aspirational future builds.
 
 ## Skills vs. Agents
 

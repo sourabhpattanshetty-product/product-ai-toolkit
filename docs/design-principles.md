@@ -23,4 +23,8 @@ New skills added to this toolkit should hold to the same principles even where t
 
 ## Why domain-based folders
 
-Skills and agents live under `domains/<NN-domain-name>/`, matching a standard PM curriculum, rather than in flat `skills/` and `agents/` buckets. This makes gaps visible on purpose: a domain folder with no contents yet (Fundamentals, UX Collaboration, Tech 101, as of this writing) is a more honest signal of what's built vs. not than a flat list would be, and it keeps a new build anchored to the actual PM skill it's meant to support rather than filed by implementation detail (skill vs. agent) alone.
+Skills and agents live under `domains/<NN-domain-name>/`, matching a standard PM curriculum, rather than in flat `skills/` and `agents/` buckets. This keeps a new build anchored to the actual PM skill it's meant to support rather than filed by implementation detail (skill vs. agent) alone.
+
+## No placeholder folders
+
+A domain only gets a folder once it has a concrete skill or agent in it. Don't create a folder — or a "no contents yet, here's what we might build" stub README — for a domain that doesn't have one. An empty scaffold reads as aspirational rather than built, and undermines the "visible gaps beat smooth prose" principle above by dressing up absence as progress. If a domain has nothing yet, it simply isn't in the repo; add it when there's a real artifact to put there.
