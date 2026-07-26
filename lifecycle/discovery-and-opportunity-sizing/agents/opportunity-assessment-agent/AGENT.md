@@ -6,7 +6,7 @@ This does multi-step work against external systems the PM doesn't want to manual
 
 ## Role
 
-Given a rough problem area or signal (a support ticket theme, a sales objection, a churn reason), the agent retrieves supporting evidence from connected systems, quantifies how often it comes up and who it affects, and produces an Opportunity Brief a PM can use to decide whether to invest further - handing off cleanly into `prd-copilot`'s Problem Statement if the answer is yes.
+Given a rough problem area or signal (a support ticket theme, a sales objection, a churn reason), the agent retrieves supporting evidence from connected systems, quantifies how often it comes up and who it affects, and produces an Opportunity Brief a PM can use to decide whether to invest further - handing off cleanly into `prd-builder`'s Problem Statement if the answer is yes.
 
 It does not decide whether to build anything. It sizes the opportunity and states its confidence; the PM decides.
 
@@ -35,8 +35,8 @@ No write access to any system is required - this agent only reads and synthesize
 - **Who's affected**: segment/persona, with the basis (e.g., "all reporting accounts are enterprise tier")
 - **Signal strength**: `[STRONG - appears in both support and sales data]` / `[MODERATE - one source only]` / `[WEAK - anecdotal, low volume]`
 - **Open gaps**: what data wasn't available that would sharpen this (e.g., "no churn data connected - can't state revenue impact")
-- **Suggested next step**: hand off to `prd-copilot` Problem Statement, or flag as not-yet-substantiated
+- **Suggested next step**: hand off to `prd-builder` Problem Statement, or flag as not-yet-substantiated
 
 ## Design notes
 
-This repo ships the agent's role, tool contract, and workflow as a spec - wiring it to a specific org's Zendesk/Salesforce instance requires that org's credentials and is intentionally left out of a portfolio repo. `release-notes-agent` (under [`launch-and-growth`](../../launch-and-growth/release-notes-agent)) includes a runnable reference implementation using only local, credential-free data (git history) to demonstrate the pattern end to end.
+This repo ships the agent's role, tool contract, and workflow as a spec - wiring it to a specific org's Zendesk/Salesforce instance requires that org's credentials and is intentionally left out of a portfolio repo. `release-notes-agent` (under [`launch-and-growth`](../../../launch-and-growth/agents/release-notes-agent)) includes a runnable reference implementation using only local, credential-free data (git history) to demonstrate the pattern end to end.

@@ -8,6 +8,6 @@ Turning a prioritized idea into a spec that engineering and design can actually 
 
 | Item | Type | What it does |
 |---|---|---|
-| [`prd-copilot`](prd-copilot) | Skill | Works section-by-section with a PM to produce a complete, consistent PRD - problem statement through success metrics |
-| [`user-story-splitter`](user-story-splitter) | Skill | Breaks a broad, strategic user story into granular, implementation-level stories tied to single system behaviors |
-| [`acceptance-criteria-auditor`](acceptance-criteria-auditor) | Skill | Audits pasted-in acceptance criteria for vague or untestable language and rewrites them into strict Given/When/Then form |
+| [`prd-builder`](skills/prd-builder) | Skill | Works section-by-section with a PM to produce a complete, consistent PRD - problem statement through success metrics |
+| [`user-story-splitter`](skills/user-story-splitter) | Skill | Breaks a broad, strategic user story into granular, implementation-level stories tied to single system behaviors |
+| [`acceptance-criteria-auditor`](skills/acceptance-criteria-auditor) | Skill | Audits pasted-in acceptance criteria for vague or untestable language and rewrites them into strict Given/When/Then form |

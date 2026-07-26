@@ -35,4 +35,4 @@ Followed by:
 
 ## Design notes
 
-This agent only ever compares against targets the PRD itself already stated - it does not invent success criteria retroactively. A PRD whose Success Metrics section was left vague (or `[SKIPPED - PM DECISION]`, per `prd-copilot`'s rules) simply can't be scored, and the retro should say that outright rather than backfilling a plausible-sounding target after the fact.
+This agent only ever compares against targets the PRD itself already stated - it does not invent success criteria retroactively. A PRD whose Success Metrics section was left vague (or `[SKIPPED - PM DECISION]`, per `prd-builder`'s rules) simply can't be scored, and the retro should say that outright rather than backfilling a plausible-sounding target after the fact.

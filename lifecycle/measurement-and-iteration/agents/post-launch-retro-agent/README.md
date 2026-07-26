@@ -14,4 +14,4 @@ It needs to query a real analytics tool for actual values, not just discuss numb
 
 ## Status
 
-Spec only in this repo - wiring it to a specific analytics backend (Amplitude, Mixpanel, GA, a warehouse) requires that org's credentials. See [`release-notes-agent`](../../launch-and-growth/release-notes-agent) for a fully runnable example of the same agent pattern using only local, credential-free data.
+Spec only in this repo - wiring it to a specific analytics backend (Amplitude, Mixpanel, GA, a warehouse) requires that org's credentials. See [`release-notes-agent`](../../../launch-and-growth/agents/release-notes-agent) for a fully runnable example of the same agent pattern using only local, credential-free data.

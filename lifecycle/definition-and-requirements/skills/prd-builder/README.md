@@ -1,4 +1,4 @@
-# PRD Co-Pilot
+# PRD Builder
 
 ## The problem
 
@@ -6,7 +6,7 @@ Writing a good PRD is slow, and the parts that get rushed are usually the parts 
 
 ## The approach
 
-`prd-copilot` is designed to behave like a good cross-functional partner, not a document generator:
+`prd-builder` is designed to behave like a good cross-functional partner, not a document generator:
 
 - **Section by section, not one-shot.** It won't draft Functional Requirements before the Problem Statement has real substance, and it won't skip ahead even if asked — it redirects once, then defers to the PM.
 - **Visible gaps, not hidden ones.** Anything the agent can't validate itself gets flagged inline with markers like `[ASSUMPTION - NEEDS VALIDATION]` or `[PM INPUT NEEDED]` rather than smoothed over.
@@ -24,4 +24,4 @@ See [`examples/`](examples) for a sample walkthrough: a one-line feature idea ta
 
 ## Try it
 
-Copy this folder's `SKILL.md` into your own `.claude/skills/prd-copilot/` directory, then invoke it in Claude Code with a product idea or problem statement.
+Copy this folder's `SKILL.md` into your own `.claude/skills/prd-builder/` directory, then invoke it in Claude Code with a product idea or problem statement.

@@ -6,11 +6,11 @@ A broad, strategic user story (e.g., "I want real-time visibility into agent per
 
 ## The approach
 
-This skill splits a broad story into independent, implementation-level stories the way `prd-copilot`'s Section 6 expects them - one system behavior per story, each traceable back to its parent. It splits along real axes (happy path vs. edge case, state, actor, precondition, data boundary) rather than arbitrary phrasing, and refuses to manufacture extra splits just to look thorough.
+This skill splits a broad story into independent, implementation-level stories the way `prd-builder`'s Section 6 expects them - one system behavior per story, each traceable back to its parent. It splits along real axes (happy path vs. edge case, state, actor, precondition, data boundary) rather than arbitrary phrasing, and refuses to manufacture extra splits just to look thorough.
 
 ## Where it's used
 
-Standalone during backlog grooming or sprint planning, or as a companion to `prd-copilot` when a Section 3 story needs to become several Section 6 stories.
+Standalone during backlog grooming or sprint planning, or as a companion to `prd-builder` when a Section 3 story needs to become several Section 6 stories.
 
 ## Try it
 

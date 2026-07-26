@@ -12,7 +12,7 @@ The repo is organized around the actual arc of product work - from sizing a prob
 |---|---|---|
 | [Discovery and Opportunity Sizing](lifecycle/discovery-and-opportunity-sizing) | Is this problem real and worth solving, before any solution is proposed | `opportunity-assessment-agent`, `competitive-teardown-agent` (agents) |
 | [Strategy and Prioritization](lifecycle/strategy-and-prioritization) | Deciding what to build, in what order, and why | `rice-scoring-copilot`, `roadmap-narrative` (skills) |
-| [Definition and Requirements](lifecycle/definition-and-requirements) | Turning a prioritized idea into a spec engineering and design can build against | `prd-copilot`, `user-story-splitter`, `acceptance-criteria-auditor` (skills) |
+| [Definition and Requirements](lifecycle/definition-and-requirements) | Turning a prioritized idea into a spec engineering and design can build against | `prd-builder`, `user-story-splitter`, `acceptance-criteria-auditor` (skills) |
 | [Design Collaboration](lifecycle/design-collaboration) | Reviewing what design produces against usability principles before build starts | `usability-heuristics-reviewer` (skill), `live-ux-audit-agent` (agent) |
 | [Launch and Growth](lifecycle/launch-and-growth) | Shipping the feature and communicating what changed | `release-notes-agent` (agent, **runnable**) |
 | [Measurement and Iteration](lifecycle/measurement-and-iteration) | Closing the loop against the PRD's stated Success Metrics - feeds back into Discovery for the next cycle | `post-launch-retro-agent` (agent) |
@@ -35,11 +35,16 @@ product-ai-toolkit/
 ├── lifecycle/
 │   └── <stage-name>/
 │       ├── README.md            # what happens at this stage, what feeds in/out
-│       └── <item-name>/
-│           ├── SKILL.md         # for skills - conversational, no tools
-│           ├── AGENT.md         # for agents - role, required tools, workflow
-│           ├── README.md        # case study: problem, approach, status
-│           └── examples/        # sample input/output, where present
+│       ├── skills/
+│       │   └── <skill-name>/
+│       │       ├── SKILL.md     # conversational, no tools
+│       │       ├── README.md    # case study: problem, approach, example
+│       │       └── examples/    # sample input/output, where present
+│       └── agents/
+│           └── <agent-name>/
+│               ├── AGENT.md     # role, required tools, workflow
+│               ├── README.md    # case study: problem, approach, status
+│               └── (implementation, where runnable)
 └── docs/
     └── design-principles.md     # cross-cutting philosophy behind how these are built
 ```

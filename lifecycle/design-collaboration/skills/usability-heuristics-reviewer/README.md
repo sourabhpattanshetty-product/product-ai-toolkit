@@ -10,7 +10,7 @@ This skill reviews a shared wireframe, screenshot, or described flow against tha
 
 ## Skill, not agent - deliberately
 
-This works from whatever the PM shares in the conversation - a screenshot, a Figma export, a description. It does not browse a live app itself; see [`live-ux-audit-agent`](../live-ux-audit-agent) for that variant.
+This works from whatever the PM shares in the conversation - a screenshot, a Figma export, a description. It does not browse a live app itself; see [`live-ux-audit-agent`](../../agents/live-ux-audit-agent) for that variant.
 
 ## Try it
 

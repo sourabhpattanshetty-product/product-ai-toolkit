@@ -8,4 +8,4 @@ Closing the loop: did the feature actually do what the PRD said it would, stated
 
 | Item | Type | What it does |
 |---|---|---|
-| [`post-launch-retro-agent`](post-launch-retro-agent) | Agent (spec) | Compares a PRD's stated Success Metrics against real post-launch analytics data and reports met / missed / not-yet-measurable per KPI |
+| [`post-launch-retro-agent`](agents/post-launch-retro-agent) | Agent (spec) | Compares a PRD's stated Success Metrics against real post-launch analytics data and reports met / missed / not-yet-measurable per KPI |

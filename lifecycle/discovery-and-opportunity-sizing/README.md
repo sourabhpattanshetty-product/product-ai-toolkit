@@ -8,5 +8,5 @@ Where product work starts: is this problem real, who has it, and is it worth sol
 
 | Item | Type | What it does |
 |---|---|---|
-| [`opportunity-assessment-agent`](opportunity-assessment-agent) | Agent (spec) | Pulls real support/CRM evidence for a candidate problem and produces a sized Opportunity Brief before it becomes a PRD |
-| [`competitive-teardown-agent`](competitive-teardown-agent) | Agent (spec) | Searches and fetches competitors' current public pages to verify - not assume - how they solve a given problem |
+| [`opportunity-assessment-agent`](agents/opportunity-assessment-agent) | Agent (spec) | Pulls real support/CRM evidence for a candidate problem and produces a sized Opportunity Brief before it becomes a PRD |
+| [`competitive-teardown-agent`](agents/competitive-teardown-agent) | Agent (spec) | Searches and fetches competitors' current public pages to verify - not assume - how they solve a given problem |

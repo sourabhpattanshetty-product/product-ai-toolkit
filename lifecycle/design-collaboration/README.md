@@ -8,5 +8,5 @@ Reviewing what comes back from design against established usability principles b
 
 | Item | Type | What it does |
 |---|---|---|
-| [`usability-heuristics-reviewer`](usability-heuristics-reviewer) | Skill | Reviews a shared wireframe/screenshot/flow description against named UX laws (Jakob's Law, Nielsen's 10, Fitts's Law, Hick's Law, Miller's Law, Gestalt principles), citing the specific law behind every flag |
-| [`live-ux-audit-agent`](live-ux-audit-agent) | Agent (spec) | Same heuristics library, applied to a live running app the agent renders and screenshots itself rather than something the PM pastes in |
+| [`usability-heuristics-reviewer`](skills/usability-heuristics-reviewer) | Skill | Reviews a shared wireframe/screenshot/flow description against named UX laws (Jakob's Law, Nielsen's 10, Fitts's Law, Hick's Law, Miller's Law, Gestalt principles), citing the specific law behind every flag |
+| [`live-ux-audit-agent`](agents/live-ux-audit-agent) | Agent (spec) | Same heuristics library, applied to a live running app the agent renders and screenshots itself rather than something the PM pastes in |

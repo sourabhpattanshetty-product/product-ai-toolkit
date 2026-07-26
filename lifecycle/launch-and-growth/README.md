@@ -8,4 +8,4 @@ Shipping the feature and communicating what changed - the first moment a feature
 
 | Item | Type | What it does |
 |---|---|---|
-| [`release-notes-agent`](release-notes-agent) | Agent (**runnable**) | Reads a repo's git commit history and drafts grouped, customer-facing release notes - part of the launch communication loop |
+| [`release-notes-agent`](agents/release-notes-agent) | Agent (**runnable**) | Reads a repo's git commit history and drafts grouped, customer-facing release notes - part of the launch communication loop |

@@ -8,5 +8,5 @@ Turning a validated problem into a strategic bet: deciding what to build, in wha
 
 | Item | Type | What it does |
 |---|---|---|
-| [`rice-scoring-copilot`](rice-scoring-copilot) | Skill | Walks a PM through RICE scoring, refusing to accept a Reach/Impact/Confidence number that isn't justified by evidence |
-| [`roadmap-narrative`](roadmap-narrative) | Skill | Turns a prioritized backlog into a stakeholder-facing strategic narrative - the "why now, why this order" story behind a roadmap |
+| [`rice-scoring-copilot`](skills/rice-scoring-copilot) | Skill | Walks a PM through RICE scoring, refusing to accept a Reach/Impact/Confidence number that isn't justified by evidence |
+| [`roadmap-narrative`](skills/roadmap-narrative) | Skill | Turns a prioritized backlog into a stakeholder-facing strategic narrative - the "why now, why this order" story behind a roadmap |
