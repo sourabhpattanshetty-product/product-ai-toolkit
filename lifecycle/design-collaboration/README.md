@@ -1,8 +1,8 @@
-# UX and Design Collaboration
+# Design Collaboration
 
-**Course window:** 30 May - 05 Jun
+Reviewing what comes back from design against established usability principles before build starts - and being able to name the specific law behind a piece of feedback instead of "this feels off."
 
-Covers: the PM's role in UX design and collaborating with designers, Design Thinking stages, the 10 usability heuristics, components of UX design (research, interaction, visual), roles within a UX team, design systems, key UX laws, and effective PM-UX collaboration.
+**Comes after:** [`definition-and-requirements`](../definition-and-requirements) (Design Requirements hand off from the PRD). **Feeds into:** [`launch-and-growth`](../launch-and-growth) once build is complete and ready to ship (the build phase itself isn't covered by this toolkit).
 
 ## Contents
 

@@ -14,4 +14,4 @@ It needs to actually render and screenshot a live page rather than review someth
 
 ## Status
 
-Spec only in this repo - wiring it to a real headless-browser tool (e.g., Playwright) is left to the implementer's environment. See [`usability-heuristics-reviewer`](../usability-heuristics-reviewer) for the underlying heuristics library, and `domains/08-.../release-notes-agent` for this toolkit's one fully runnable, credential-free agent.
+Spec only in this repo - wiring it to a real headless-browser tool (e.g., Playwright) is left to the implementer's environment. See [`usability-heuristics-reviewer`](../usability-heuristics-reviewer) for the underlying heuristics library, and [`release-notes-agent`](../../launch-and-growth/release-notes-agent) for this toolkit's one fully runnable, credential-free agent.
