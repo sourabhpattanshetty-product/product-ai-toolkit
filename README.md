@@ -13,11 +13,12 @@ The repo is organized around a standard PM curriculum, so each build sits next t
 | 02 | [Product Strategy and Strategic Thinking](domains/02-product-strategy-and-strategic-thinking) | 02 May - 08 May | `roadmap-narrative` (skill) |
 | 03 | [Problem Discovery, Market and User Research](domains/03-problem-discovery-market-and-user-research) | 16 May - 22 May | `opportunity-assessment-agent`, `competitive-teardown-agent` (agents) |
 | 04 | [Problem Framing and Prioritization](domains/04-problem-framing-and-prioritization) | 23 May - 29 May | `user-story-splitter`, `rice-scoring-copilot` (skills) |
+| 05 | [UX and Design Collaboration](domains/05-ux-and-design-collaboration) | 30 May - 05 Jun | `usability-heuristics-reviewer` (skill), `live-ux-audit-agent` (agent) |
 | 06 | [Effective Communication as a PM](domains/06-effective-communication) | 06 Jun - 12 Jun | `prd-copilot`, `acceptance-criteria-auditor` (skills) |
 | 07 | [Analytics and Metrics](domains/07-analytics-and-metrics) | 20 Jun - 26 Jun | `post-launch-retro-agent` (agent) |
 | 08 | [Product Launch, Growth and Monetization](domains/08-product-launch-growth-and-monetization) | 27 Jun - 03 Jul | `release-notes-agent` (agent, **runnable**) |
 
-Numbering follows the course sequence (hence the gaps) so each domain still maps back to its module. Fundamentals, UX and Design Collaboration, and Tech 101 don't have a folder — there's no concrete skill or agent for them yet, and this repo doesn't carry placeholder folders for aspirational future builds.
+Numbering follows the course sequence (hence the gaps) so each domain still maps back to its module. Fundamentals and Tech 101 don't have a folder — there's no concrete skill or agent for them yet, and this repo doesn't carry placeholder folders for aspirational future builds.
 
 ## Skills vs. Agents
 
