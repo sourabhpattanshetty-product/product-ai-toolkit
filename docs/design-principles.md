@@ -20,3 +20,7 @@ New skills added to this toolkit should hold to the same principles even where t
 - If the work requires evidence the PM doesn't already have in hand — real ticket counts, a competitor's actual current pricing page, real analytics numbers, actual git history — it's an **agent**. Building it as a skill instead would just mean the "agent" asks the PM to go fetch the data and paste it in, which defeats the point.
 - An agent's tool list should be read-only wherever possible. None of the agents in this toolkit need write access to any external system — they gather and synthesize evidence; the PM still decides and acts.
 - A spec-only agent (role, tools, workflow documented but not wired to live credentials) is still a legitimate artifact for this toolkit — it shows the design without requiring a reviewer to trust an org's private integrations. At least one agent per toolkit should be fully runnable end to end using only credential-free data, so the pattern is demonstrably real and not just described.
+
+## Why domain-based folders
+
+Skills and agents live under `domains/<NN-domain-name>/`, matching a standard PM curriculum, rather than in flat `skills/` and `agents/` buckets. This makes gaps visible on purpose: a domain folder with no contents yet (Fundamentals, UX Collaboration, Tech 101, as of this writing) is a more honest signal of what's built vs. not than a flat list would be, and it keeps a new build anchored to the actual PM skill it's meant to support rather than filed by implementation detail (skill vs. agent) alone.
